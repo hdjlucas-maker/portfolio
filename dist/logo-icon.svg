@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="lucasGrad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0099e6"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="40" height="40" rx="10" fill="url(#lucasGrad)"/>
+
+  <!-- L glyph -->
+  <rect x="13" y="10" width="6" height="19" rx="3" fill="#f8fafc"/>
+  <rect x="13" y="24" width="14" height="6" rx="3" fill="#f8fafc"/>
+
+  <!-- circuit trace rising from the L to the signal node -->
+  <path d="M16 10 V7 H25 V10" fill="none" stroke="#22d3ee" stroke-width="1.6"
+        stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+
+  <!-- pulsing node, echoes the "disponível" status dot used across the site -->
+  <circle cx="25" cy="7" r="2.3" fill="#22d3ee">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
