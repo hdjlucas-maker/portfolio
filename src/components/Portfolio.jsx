@@ -7,6 +7,7 @@ export default function Portfolio() {
       tags: ['Conversão', 'Mobile-first', 'WhatsApp'],
       gradient: 'from-brand-600/30 to-accent-500/30',
       mockup: 'service',
+      image: '/portfolio/landing-manutencao.jpg',
     },
     {
       title: 'Site Institucional — Consultoria',
@@ -15,6 +16,7 @@ export default function Portfolio() {
       tags: ['Institucional', 'Agendamento', 'SEO Local'],
       gradient: 'from-accent-500/30 to-brand-600/30',
       mockup: 'business',
+      image: '/portfolio/site-consultoria.jpg',
     },
     {
       title: 'Agente de IA — Atendimento',
@@ -23,6 +25,7 @@ export default function Portfolio() {
       tags: ['IA', 'Automação', 'Chatbot'],
       gradient: 'from-accent-400/30 to-brand-500/30',
       mockup: 'ai',
+      image: '/portfolio/agente-ia.jpg',
     },
   ]
 
@@ -135,6 +138,15 @@ export default function Portfolio() {
               <div className={`relative h-56 bg-gradient-to-br ${project.gradient} overflow-hidden border-b border-white/[0.06]`}>
                 <div className="absolute inset-3 rounded-lg bg-[#000a12]/80 overflow-hidden border border-white/[0.08] group-hover:scale-[1.02] transition-transform duration-300">
                   {renderMockup(project.mockup)}
+                  {project.image && (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      loading="lazy"
+                      className="absolute inset-0 w-full h-full object-cover"
+                      onError={(e) => { e.currentTarget.style.display = 'none' }}
+                    />
+                  )}
                 </div>
                 <div className="absolute top-3 right-3 tag bg-black/40 text-accent-300 border border-accent-500/20 backdrop-blur-sm">
                   {project.category}
