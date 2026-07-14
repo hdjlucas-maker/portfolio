@@ -36,16 +36,19 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left: Bio */}
           <div>
-            {/* Foto de perfil + nome */}
-            <div className="flex items-center gap-4 mb-6">
+            {/* Foto + nome */}
+            <div className="flex items-center gap-5 mb-6">
               <img
                 src="/perfil-lucas.jpg"
-                alt="Lucas Corrêa - Desenvolvedor e Agente de IA"
-                className="w-20 h-20 rounded-full object-cover ring-2 ring-accent-400/40"
+                alt="Lucas Corrêa - Especialista em landing pages, sites e soluções com IA"
+                className="w-32 h-32 md:w-40 md:h-40 rounded-2xl object-cover ring-2 ring-accent-400/40"
               />
               <div>
-                <h3 className="text-white font-semibold text-lg">Lucas Corrêa</h3>
-                <p className="text-sm text-gray-400">Desenvolvedor & Agente de IA</p>
+                <h3 className="text-white font-semibold text-xl md:text-2xl">Lucas Corrêa</h3>
+                <p className="text-sm md:text-base text-gray-400 mt-1">
+                  Especialista em landing pages, sites e soluções com IA no Rio de Janeiro,
+                  ajudando empresas a transformar visitantes em clientes.
+                </p>
               </div>
             </div>
 
