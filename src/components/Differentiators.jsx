@@ -25,8 +25,8 @@ export default function Differentiators() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       ),
-      title: 'Atendimento Local',
-      description: 'Estou no Rio de Janeiro. Atendimento próximo, sem barreira de fuso ou idioma. Visita presencial quando necessário.',
+      title: 'Atendimento com Agendamento',
+      description: 'Estou no RJ - Duque de Caxias. Atendimento próximo, sem barreira, Visita presencial quando necessário.',
     },
     {
       icon: (

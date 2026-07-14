@@ -18,13 +18,13 @@ export default function About() {
     },
     {
       year: 'Evolução',
-      title: 'Transição para Desenvolvimento',
+      title: 'Ajudo Empresas a Conseguirem Mais Clientes | Lucas Corrêa',
       description: 'Mergulhei no desenvolvimento web, criando sites e landing pages que combinam técnica e design.',
     },
     {
       year: 'Atual',
-      title: 'Desenvolvedor & Agente de IA',
-      description: 'Hoje crio soluções digitais completas — do site à automação com IA — para negócios que querem crescer.',
+      title: 'Desenvolvimento de landing pages de alta conversão para empresas que desejam gerar mais orçamentos. Hospedagem, domínio, SSL, manutenção e suporte inclusos.',
+      description: 'Ajudo empresas a conquistar mais clientes com landing pages de alta conversão, sites profissionais e soluções inteligentes com IA.Hoje crio soluções digitais completas — do site à automação com IA — para negócios que querem crescer.',
     },
   ]
 
@@ -50,9 +50,7 @@ export default function About() {
                 Aprendi na prática o que significa <span className="text-white font-medium">resolver a dor de um cliente</span>.
               </p>
               <p>
-                Hoje, em transição para <span className="text-white font-medium">desenvolvimento web e IA</span>, combino
-                essa experiência técnica com criação de sites e landing pages que convertem. Entendo a tecnologia por
-                completo — do hardware ao código — e isso me permite criar soluções que realmente funcionam.
+                Hoje atuo no desenvolvimento de landing pages, <span className="text-white font-medium">sites e soluções com IA</span>, que ajudam empresas a conquistar mais clientes e fortalecer sua presença digital. Minha experiência técnica me permite criar soluções rápidas, seguras e orientadas para resultados, unindo estratégia, performance e tecnologia em cada projeto.
               </p>
               <p>
                 Estou no <span className="text-white font-medium">Rio de Janeiro</span>, atendendo negócios locais que
@@ -122,7 +120,7 @@ export default function About() {
               </div>
               <div>
                 <div className="text-sm font-semibold text-white">Rio de Janeiro, RJ</div>
-                <div className="text-xs text-gray-500">Atendimento presencial e remoto em toda a região metropolitana</div>
+                <div className="text-xs text-gray-500">Atendimento remoto em toda a região metropolitana</div>
               </div>
             </div>
           </div>

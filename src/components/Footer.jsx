@@ -16,7 +16,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-4 text-sm text-gray-500 max-w-sm leading-relaxed">
-              Desenvolvedor web e agente de IA no Rio de Janeiro. Crio sites e landing pages que convertem visitantes em clientes.
+              Especialista em landing pages, sites e soluções com IA no Rio de Janeiro, ajudando empresas a transformar visitantes em clientes.
             </p>
           </div>
 
@@ -76,7 +76,7 @@ export default function Footer() {
             © {year} Lucas.dev — Todos os direitos reservados
           </p>
           <p className="text-xs text-gray-600 font-mono">
-            Feito com React + Vite + Tailwind no Rio de Janeiro
+            Tecnologia, estratégia e design para transformar visitantes em clientes.
           </p>
         </div>
       </div>
