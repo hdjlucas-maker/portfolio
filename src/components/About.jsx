@@ -36,6 +36,19 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left: Bio */}
           <div>
+            {/* Foto de perfil + nome */}
+            <div className="flex items-center gap-4 mb-6">
+              <img
+                src="/perfil-lucas.jpg"
+                alt="Lucas Corrêa - Desenvolvedor e Agente de IA"
+                className="w-20 h-20 rounded-full object-cover ring-2 ring-accent-400/40"
+              />
+              <div>
+                <h3 className="text-white font-semibold text-lg">Lucas Corrêa</h3>
+                <p className="text-sm text-gray-400">Desenvolvedor & Agente de IA</p>
+              </div>
+            </div>
+
             <span className="tag bg-accent-500/10 text-accent-400 border border-accent-500/20">
               <span className="w-1.5 h-1.5 rounded-full bg-accent-400" />
               Sobre mim
